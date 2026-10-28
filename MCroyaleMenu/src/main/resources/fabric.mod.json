@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "mcroyale_menu",
+  "version": "${version}",
+  "name": "MC Royale Menu",
+  "description": "A blue-accented Minecraft menu mockup with clickable local toggles.",
+  "environment": "client",
+  "entrypoints": { "client": ["net.mcroyale.menu.MCRoyaleMenu"] },
+  "depends": { "fabricloader": ">=0.18.1", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
